@@ -1,0 +1,51 @@
+name: progettogioco
+description: A new Flutter project.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^0.1.2
+
+  dependencies:
+  audioplayers: ^0.13.5
+  google_fonts: ^0.3.7
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+
+flutter:
+
+  assets:
+    - assets/
+    - assets/destra.png
+    - assets/sinistra.png
+    - assets/su.png
+    - assets/giu.png
+    - assets/mela.png
+    - assets/campo.png
+    - assets/basemusic.mp3
+    - assets/morso.mp3
+    - assets/gameover.mp3
+    - assets/volumeoff.png
+    - assets/volumeon.png
+    - assets/HOME.jpeg
+    - assets/snake.png
+    - assets/galaga.jpeg
+    - assets/snake.jpeg
+  
+fonts:
+  - family:          R
+    fonts:
+     - asset:   PressStart2P-Regular.ttf    
+  
+uses-material-design: true
+
+  

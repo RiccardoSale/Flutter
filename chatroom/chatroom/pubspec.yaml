@@ -1,0 +1,35 @@
+name: chatroom
+description: ""
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  google_sign_in: ^4.0.14
+  firebase_auth: ^0.15.0+1
+  cupertino_icons: ^0.1.2
+  shared_preferences: ^0.5.4+6
+  path_provider: ^0.4.1
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter_launcher_icons: "^0.6.1"
+
+flutter_icons:
+  image_path: "icon/icon.png" 
+  android: true
+  ios: true
+
+flutter:
+  assets:
+    - assets/
+fonts:
+  - family: Ewert     
+    fonts:
+    - asset: assets/Ewert-Regular.ttf
+  
